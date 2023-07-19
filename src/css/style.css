@@ -1,0 +1,67 @@
+body{
+    background-color: var(--background-color);
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+
+}
+
+.title{
+    color:var(--advice-dice-color);
+    font-size:10px;
+    font-weight:300;
+    letter-spacing:4px;
+    text-transform: uppercase;
+ 
+    
+}
+
+.text{
+    color:var(--text-color);
+    width: 17rem;
+    font-weight:800;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+.line{
+    width: 70%;
+
+    position: relative;
+    top: 25px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--advice-dice-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+
+    position: relative;
+    top: 41px;
+}
+
+.icon img{
+    width: 35%;
+}
